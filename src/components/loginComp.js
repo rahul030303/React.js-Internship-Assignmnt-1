@@ -1,4 +1,4 @@
-import {React, Component }from 'react';
+import React, {Component }from 'react';
 //import { history } from 'react-router';
 import { withRouter } from "react-router-dom";
 import ReactDOM from 'react-dom';
