@@ -37,7 +37,6 @@ function App() {
         <Route exact path="/" render={ props => <Home/> } />
         <Route  path="/home/login" component={LoginComp}/>
         <ProtectedRoute exact path="/dashboard" component={Dashboard} />
-                   
       </Switch>
     </div>
   </Router>
