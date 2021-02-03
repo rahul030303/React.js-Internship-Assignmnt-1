@@ -3,9 +3,9 @@ import { Route,Redirect } from 'react-router-dom';
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   // console.log(Component);
-  // console.log(rest);
+  console.log(rest);
 
-const isAuth=localStorage.getItem('username')===null;
+const isAuth=localStorage.getItem('status')!= 200;
 
     if(isAuth){
       // console.log(this.props.history);

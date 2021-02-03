@@ -23,7 +23,7 @@ class Dashboard extends React.Component{
     // }
     
     handleClick=()=>{
-        localStorage.removeItem('username');
+        localStorage.removeItem('status');
         this.props.history.push('/');
     }
 
